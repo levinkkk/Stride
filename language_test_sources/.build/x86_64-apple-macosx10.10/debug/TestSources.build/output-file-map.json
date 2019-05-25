@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/pmacrory/dev/ui/editor/language_test_sources/.build/x86_64-apple-macosx10.10/debug/TestSources.build/master.swiftdeps"
+  },
+  "/Users/pmacrory/dev/ui/editor/language_test_sources/Sources/TestSources/main.swift": {
+    "dependencies": "/Users/pmacrory/dev/ui/editor/language_test_sources/.build/x86_64-apple-macosx10.10/debug/TestSources.build/main.d",
+    "object": "/Users/pmacrory/dev/ui/editor/language_test_sources/.build/x86_64-apple-macosx10.10/debug/TestSources.build/main.swift.o",
+    "swiftmodule": "/Users/pmacrory/dev/ui/editor/language_test_sources/.build/x86_64-apple-macosx10.10/debug/TestSources.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/pmacrory/dev/ui/editor/language_test_sources/.build/x86_64-apple-macosx10.10/debug/TestSources.build/main.swiftdeps"
+  }
+}

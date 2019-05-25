@@ -1,0 +1,79 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Highlighter",
+        "repositoryURL": "https://github.com/pmacro/Highlighter",
+        "state": {
+          "branch": "master",
+          "revision": "a98bb67f6de90bf00827b55b8c3e1dff2ddcc856",
+          "version": null
+        }
+      },
+      {
+        "package": "LanguageClient",
+        "repositoryURL": "https://github.com/pmacro/LanguageClient",
+        "state": {
+          "branch": "master",
+          "revision": "caec704dc9befe0393712146e5d0e938b2feaff3",
+          "version": null
+        }
+      },
+      {
+        "package": "PromiseKit",
+        "repositoryURL": "https://github.com/mxcl/PromiseKit",
+        "state": {
+          "branch": null,
+          "revision": "fe1e9c5b62465227cceb7b0e6e79489ba7b824af",
+          "version": "6.8.4"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "b3e888b4972d9bc76495dd74d30a8c7fad4b9395",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "SPMClient",
+        "repositoryURL": "https://github.com/pmacro/SPMClient",
+        "state": {
+          "branch": "master",
+          "revision": "6cb2330df1df16a209825683b8f274585464d98d",
+          "version": null
+        }
+      },
+      {
+        "package": "Suit",
+        "repositoryURL": "https://github.com/pmacro/Suit",
+        "state": {
+          "branch": "master",
+          "revision": "a80d71d5d3ac15b1a200c9f7781c03b865e95ca6",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftSyntax",
+        "repositoryURL": "https://github.com/apple/swift-syntax.git",
+        "state": {
+          "branch": null,
+          "revision": "43aa4a19b8105a803d8149ad2a86aa53a77efef3",
+          "version": "0.50000.0"
+        }
+      },
+      {
+        "package": "Yoga",
+        "repositoryURL": "https://github.com/pmacro/Yoga",
+        "state": {
+          "branch": "master",
+          "revision": "4d01700b15763f62b210616252c6ddba2237d72a",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
