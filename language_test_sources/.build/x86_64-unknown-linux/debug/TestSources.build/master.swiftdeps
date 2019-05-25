@@ -1,5 +1,0 @@
-version: "Swift version 5.0-dev (LLVM 59470d46d5, Swift 6d7f3f61d9)"
-options: "a37e4adc1c9decba6d875cfea504a64c"
-build_time: [1557765234, 67467135]
-inputs:
-  "/home/osboxes/dev/editor/language_test_sources/Sources/TestSources/main.swift": [1557320417, 317366538]

@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "aec017f4415aa4613bb80fb0335bfaac"
-build_time: [1551790697, 784414000]
-inputs:
-  "/Users/pmacrory/dev/ui/editor/language_test_sources/Sources/TestSources/main.swift": [1551790696, 0]

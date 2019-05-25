@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.0-dev (LLVM 3207a50965, Clang 72dde1b133, Swift fa5d493110)"
-options: "b8018ea6a09805ac9c1feefdead185c4"
-build_time: [1556728555, 265122000]
-inputs:
-  "/Users/pmacrory/dev/ui/editor/language_test_sources/Sources/TestSources/main.swift": [1556728400, 327304967]
