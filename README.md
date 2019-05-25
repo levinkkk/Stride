@@ -1,4 +1,4 @@
-# Stride
+![alt text](./stride_banner.png "Stride: a cross platform Swift IDE")
 
 Stride is a cross-platform IDE for Swift development.  Stride is in the early stages of its development, but is useful and usable in its present state where alternatives are limited.  It's "self-hosting": you can edit, build and run Stride within itself.
 
