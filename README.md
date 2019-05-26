@@ -18,6 +18,10 @@ Debugging has not yet been implemented, but it is top of the list once the curre
 
 Your input is very much welcomed.  There's a lot to do, but you're getting involved at a time when you can have a major impact and influence on an exciting project.  Stride is developed hand-in-hand with Suit, a cross-platform Swift GUI toolkit, so you'll have to get your hands dirty there, too--but it'll be fun.
 
+## How can I monitor Stride's progress
+
+You can follow me on Twitter, where I post frequent progress updates for both Suit and Stride.  Hopefully the project will gain other contributors over time and I will no longer be a single contact point for the projects.
+
 ## Quick Start
 
 If you're running on macOS, you simply need to pull down the repository, then:
