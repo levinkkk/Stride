@@ -57,7 +57,7 @@ The project is so new at this point that I don't know what issues users are like
 
 ## State of the project
 
-Note that a check doesn't indicate that a feature is fully complete and without bugs, it indicates that it exists in some form.  The main purpose of the below information is for someone to get a rough idea, at a glance, of where the project is.
+Note that a check doesn't indicate that a feature is fully complete and without bugs, it indicates that it exists in some form.  The main purpose of the below information is for someone to get a rough idea, at a glance, of where the project is.  Similarly, an item not being in the list at all doesn't mean it's not planned for the project, it just means it's not the current focus at this early stage.
 
 - [x] Basic code completion
 - [ ] Press tab to navigate to next/previous parameter after selecting code completion item.
