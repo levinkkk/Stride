@@ -4,7 +4,7 @@ Stride is a cross-platform IDE for Swift development.  Stride is in the early st
 
 As its project model Stride uses Swift packages, thereby providing first class support for Swift packages.  You simply open a Package.swift in Stride and your full package source will be shown, including any dependencies that have been set to "edit" mode via the Swift Package Manager.  This has not yet been extensively tested outside of Stride's own packages.
 
-Stride uses a custom GUI toolkit, written from scratch in Swift, in order to provide a single consistent codebase and experience across platforms.  While only macOS and Linux are supported today, backends for other platforms are planned once things stabilize a little bit more.
+Stride uses a custom GUI toolkit called [Suit](https://github.com/pmacro/Suit), written from scratch in Swift, in order to provide a single consistent codebase and experience across platforms.  While only macOS and Linux are supported today, backends for other platforms are planned once things stabilize a little bit more.
 
 ## Building
 
@@ -40,3 +40,7 @@ If you subsequently modify the source, then just build and run as you'd expect:
 
     ./build.sh
     swift run --skip-build
+    
+To run tests, you can either do so from inside the Xcode project, or use the included script:
+
+    ./test.sh
