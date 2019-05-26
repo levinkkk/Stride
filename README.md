@@ -22,17 +22,21 @@ Your input is very much welcomed.  There's a lot to do, but you're getting invol
 
 If you're running on macOS, you simply need to pull down the repository, then:
 
-cd Stride
-swift package update
-./build.sh
-swift run --skip-build
+    cd Stride
+    swift package update
+    ./build.sh
+    swift run --skip-build
 
 If you're running Linux, pull down the repository, then:
 
-cd Stride
-swift package edit Suit
-./Packages/Suit/install_dependencies_ubuntu.sh
-swift package update
-./build.sh
-swift run --skip-build
+    cd Stride
+    swift package edit Suit
+    ./Packages/Suit/install_dependencies_ubuntu.sh
+    swift package update
+    ./build.sh
+    swift run --skip-build
 
+If you subsequently modify the source, then just build and run as you'd expect:
+
+    ./build.sh
+    swift run --skip-build
