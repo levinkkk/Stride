@@ -6,7 +6,7 @@ As its project model Stride uses Swift packages, thereby providing first class s
 
 Stride uses a custom GUI toolkit called [Suit](https://github.com/pmacro/Suit), written from scratch in Swift, in order to provide a single consistent codebase and experience across platforms.  While only macOS and Linux are supported today, backends for other platforms are planned once things stabilize a little bit more.
 
-![alt text](./PromoImages/stride_preview.gif "Preview of Stride on Ubuntu")
+![alt text](./PromoImages/stride_preview.mov "Preview of Stride on Ubuntu")
 
 ## Building
 
