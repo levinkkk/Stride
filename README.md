@@ -20,7 +20,7 @@ Your input is very much welcomed.  There's a lot to do, but you're getting invol
 
 ## How can I monitor Stride's progress
 
-You can follow me on Twitter, where I post frequent progress updates for both Suit and Stride.  Hopefully the project will gain other contributors over time and I will no longer be a single contact point for the projects.
+You can follow me on [Twitter](https://twitter.com/saniceadonut), where I post frequent progress updates for both Suit and Stride.  Hopefully the project will gain other contributors over time and I will no longer be a single contact point for the projects.
 
 ## Quick Start
 
