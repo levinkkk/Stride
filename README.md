@@ -50,3 +50,44 @@ To run tests, you can either do so from inside the Xcode project, or use the inc
     ./test.sh
 
 When you first run Stride you will need to go into the Preferences and select the Swift compiler path and the path to the [sourcekit-lsp](https://github.com/apple/sourcekit-lsp) executable.  Stride includes pre-built binaries inside its "Language Servers" folder.  You can try these, but it's advised to build your own using your toolchain.
+
+## Troubleshooting
+
+The project is so new at this point that I don't know what issues users are likely to face.  The best thing to do is let me know and I'll respond ASAP.  I suspect that the most likely issues will be related to getting code completion to work and having Stride load arbitrary projects.  Please bear with me while any initial teething problems are worked out!
+
+## State of the project
+
+Note that a check doesn't indicate that a feature is fully complete and without bugs, it indicates that it exists in some form.  The main purpose of the below information is for someone to get a rough idea, at a glance, of where the project is.
+
+- [x] Basic code completion
+- [ ] Press tab to navigate to next/previous parameter after selecting code completion item.
+- [x] Basic go to symbol.
+- [ ] Choose from multiple possible locations for go to symbol
+- [x] Quick open file.
+- [x] Open Project - uses weird SPM interaction model, needs work.
+- [ ] Create new file.
+- [x] New Project (basic version)
+- [ ] Debugger
+- [x] Build output
+- [x] Run output
+- [x] Support multiple open files in tabs.
+- [x] Show coding errors/warnings.
+- [x] Build projects
+- [x] Run projects
+- [x] UI for compiler/LSP configuration
+- [ ] Ensure code is not assuming Swift is the language being edited.
+
+A large part of the work has been the implementation of an editor view, so it deserves its own task list.
+
+- [x] Edit text
+- [x] Cut/copy/paste
+- [x] Select all
+- [x] Replace selected text on edit
+- [x] Arrow key navigation
+- [x] Mouse selection
+- [ ] Auto-scroll to caret location
+- [x] Text attributes (such as color)
+- [x] Acceptable performance editing very large files.
+- [x] Optimised rendering (draw only changed parts of the file) - initial version, at least.
+- [x] Handle non ascii content correctly, such as emojis. 
+- [ ] Undo/redo
