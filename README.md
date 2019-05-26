@@ -1,10 +1,12 @@
-![alt text](./stride_banner.png "Stride: a cross platform Swift IDE")
+![alt text](./PromoImages/stride_banner.png "Stride: a cross platform Swift IDE")
 
 Stride is a cross-platform IDE for Swift development.  Stride is in the early stages of its development, but is useful and usable in its present state where alternatives are limited.  It's "self-hosting": you can edit, build and run Stride within itself.
 
 As its project model Stride uses Swift packages, thereby providing first class support for Swift packages.  You simply open a Package.swift in Stride and your full package source will be shown, including any dependencies that have been set to "edit" mode via the Swift Package Manager.  This has not yet been extensively tested outside of Stride's own packages.
 
 Stride uses a custom GUI toolkit called [Suit](https://github.com/pmacro/Suit), written from scratch in Swift, in order to provide a single consistent codebase and experience across platforms.  While only macOS and Linux are supported today, backends for other platforms are planned once things stabilize a little bit more.
+
+![alt text](./PromoImages/stride_preview.gif "Preview of Stride on Ubuntu")
 
 ## Building
 
