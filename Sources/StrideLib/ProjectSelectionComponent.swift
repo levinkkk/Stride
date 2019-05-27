@@ -160,27 +160,15 @@ public class ProjectSelectionComponent: CompositeComponent {
     newProjectsView.height = 100%
     newProjectsView.width = 40%
     parent.add(subview: newProjectsView)
-
-    let titleLabel = Label()
-    titleLabel.text = "Welcome to Stride"
-
-    let category: FontCategory
-
-    #if os(macOS)
-      category = .veryLarge
-    #else
-      category = .large
-    #endif
-
-    titleLabel.font = .ofType(.system, category: category, weight: .thin)
-    titleLabel.height = 30~
-    titleLabel.width = 95%
-    titleLabel.verticalArrangement = .center
-    titleLabel.set(margin: 5~, for: .left)
-
-    titleLabel.background.color = .clear
-
-    newProjectsView.add(subview: titleLabel)
+    
+    if let bannerPath = Bundle.main.path(forAsset: "stride_banner", ofType: "png") {
+      let bannerImage = Image(filePath: bannerPath)
+      let imageView = ImageView()
+      imageView.image = bannerImage
+      imageView.height = 80~
+      imageView.width = 95%      
+      newProjectsView.add(subview: imageView)
+    }
         
     newProjectButton.title = "Create New Project"
     newProjectButton.set(margin: 20~, for: .left)

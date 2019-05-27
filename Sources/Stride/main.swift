@@ -25,8 +25,8 @@ if let projectPath = projectPath {
   window = Window(rootComponent: ProjectSelectionComponent(),
                           frame: CGRect(x: 0,
                                         y: 0,
-                                        width: 600,
-                                        height: 300),
+                                        width: 650,
+                                        height: 225),
                                         hasTitleBar: true)
   window.center()
 }
